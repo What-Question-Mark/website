@@ -1,1 +1,133 @@
+:root {
+    --main-text-color: #fff;
+    --main-bg: rgb(8, 8, 8);
+}
+*{
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+} 
+section {
+    padding: 100px 200px;
+}
 
+/* Navigations */
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px ;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navigation a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 1.25em;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+.header-logo {
+    border-radius: 100%;
+    width: 50px;
+}
+
+/* Home */
+
+.main-body {
+    width: 100%;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main-body h2 {
+    color: var(--main-text-color);
+    font-size: 6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.main-body h3 {
+    color: var(--main-text-color);
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Buttons */
+
+.main-btn {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.25em;
+    display: inline-block;
+    padding: 0.9375em 2em;
+    border-radius: 15px;;
+}
+.main-btn:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+
+.title {
+    display: flex;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.card {
+    min-height: 7em;
+    width: 22em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: 0.7s ease;
+    outline: none;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scrollbar-width: auto;
+    box-shadow: 0 0 5px #fff;
+}
+.card-info {
+    padding: 1em;
+    color: #fff;
+}
+.card-text {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 15px;
+    text-overflow: ellipsis;
+}
+.card-text-link {
+    color: whitesmoke;
+    text-overflow: ellipsis;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
