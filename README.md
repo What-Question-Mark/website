@@ -2,7 +2,7 @@
 
 ## URL:
 
-- https://what-question-mark.github.io/
+- https://what.is–a.dev/
 
 ## Made with:
 
