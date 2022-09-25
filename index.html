@@ -9,61 +9,91 @@
         <meta content="https://what-question-mark.github.io/" property="og:url" />
         <meta content="images/avatar.png" property="og:image" />
         <meta content="#FFCC4D" data-react-helmet="true" name="theme-color" />
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     </head>
     <body>
+
+        <!-- Header -->
+
         <header>
             <img class="header-logo" src="images/avatar.png" alt="logo">
             <nav class="navigation">
                 <a href="#">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#contacts">Contact Me</a>
+                <!--<a href="#projects">Projects</a>-->
+                <a href="#stack">My Stack</a>
                 <a target="_blank" href="https://github.com/What-Question-Mark">My GitHub</a>
         </header>
+
+        <!-- Main Body -->
+
         <section class="main-body">
             <div>
-                <h2><span><img height="84px" width="84px" src="images/waving-hand.png"> Hi i am what?</span></h2>
+                <h2 id="main-name"><span><img height="84px" width="84px" src="images/waving-hand.png"> Hi i'm what?</span></h2>
                 <h3>I am some random high school student who lives in Australia</h3>
-            </div>
-        </section>
-        <section id="projects">
-            <h2 class="title">Projects</h2>
-            <div class="content">
-                <div class="card">
-                    <div class="card-info">
-                        <h2 class="card-text">Birb Paradise</h2>
-                        <h3>Website Developer - <a target="_blank" class="card-text-link" href="https://discord.gg/gDRchQbDg3">https://discord.gg/bZAF3dUHqX</a></h3>
+                <div class="social-card">
+                    <div style="margin-right: 1.5em;">
+                        <a target="_blank" href="https://github.com/What-Question-Mark"><iconify-icon icon="akar-icons:github-fill" width="4em" height="4em" style="color: var(--main-theme);"></iconify-icon></a>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-info">
-                        <h2 class="card-text">Synefo</h2>
-                        <h3>Website Developer - <a target="_blank" class="card-text-link" href="https://discord.gg/gDRchQbDg3">https://discord.gg/gDRchQbDg3</a></h3>
+                    <div>
+                        <a target="_blank" href="mailto: jack.weller@hotmail.com"><iconify-icon icon="ci:mail-open" width="4em" height="4em" style="color: var(--main-theme);"></iconify-icon></a>
+                    </div>
+                    <div style="margin-left: 1.5em;">
+                        <a target="_blank" href="https://discord.gg/a6JEXnFYT6"><iconify-icon icon="akar-icons:discord-fill" width="4em" height="4em" style="color: var(--main-theme);"></iconify-icon></a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="contacts">
-            <h2 class="title">Contact Me</h2>
-            <div class="content">
-                <div class="card">
-                    <div class="card-info">
-                        <h2 class="card-text">Email</h2>
-                        <h3><a target="_blank" class="card-text-link" href="mailto:jack.weller@hotmail.com">Jack.Weller@hotmail.com</a></h3>
+
+        <!-- Stack -->
+        
+        <section id="stack">
+            <div>
+                <h2 class="title">My stack:</h2>
+                <div class="content">
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:html-fill" class="stack-card-icon" class="stack-card-icon" class="stack-card-icon" class="stack-card-icon" class="stack-card-icon" class="stack-card-icon" class="stack-card-icon" class="stack-card-icon" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:css-fill" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:javascript-fill" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:python-fill" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:react-fill" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-info">
-                        <h2 class="card-text">Discord</h2>
-                        <h3>what?#9153</h3>
+            </div>
+            <div>
+                <h2 style="margin-top: 2em;" class="title">What I use:</h2>
+                <div class="content">
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:discord-fill" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-info">
-                        <h2 class="card-text">Github</h2>
-                        <h3><a target="_blank" class="card-text-link" href="https://github.com/What-Question-Mark">@What-Question-Mark</a></h3>
+                    <div class="stack-card">
+                        <iconify-icon icon="bxl:mongodb" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="cib:pypi" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="akar-icons:npm-fill" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="ant-design:windows-filled" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
+                    </div>
+                    <div class="stack-card">
+                        <iconify-icon icon="cib:visual-studio-code" width="6em" height="6em" class="stack-card-icon"></iconify-icon>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Contact Me -->
+
+
     </body>
 </html>

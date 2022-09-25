@@ -1,6 +1,6 @@
 :root {
-    --main-text-color: #fff;
-    --main-bg: rgb(8, 8, 8);
+    --main-theme: #fff;
+    --main-bg: #101010;
 }
 *{
     font-family: Arial, sans-serif;
@@ -26,13 +26,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 200px ;
+    padding-top: 10px;
     background: var(--main-bg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .navigation a{
-    color: var(--main-text-color);
+    color: var(--main-theme);
     text-decoration: none;
     font-size: 1.25em;
     padding-left: 30px;
@@ -56,16 +57,17 @@ header {
     background-attachment: fixed;
 }
 .main-body h2 {
-    color: var(--main-text-color);
+    color: var(--main-theme);
     font-size: 6em;
     font-weight: 600;
     letter-spacing: 1px;
     margin-top: 2em;
     margin-bottom: 30px;
     text-align: center;
+    transition: 0.3s ease;
 }
 .main-body h3 {
-    color: var(--main-text-color);
+    color: var(--main-theme);
     font-size: 2em;
     font-weight: 500;
     letter-spacing: 1px;
@@ -89,45 +91,40 @@ header {
 }
 
 /* Cards */
-
 .title {
+    justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     color: #fff;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 800;
     margin-bottom: 30px;
 }
-.card {
-    min-height: 7em;
-    width: 22em;
+.social-card {
     overflow: hidden;
+    margin-top: 3em;
     border-radius: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
     transition: 0.7s ease;
-    outline: none;
     background: var(--main-bg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    scrollbar-width: auto;
-    box-shadow: 0 0 5px #fff;
+    justify-content: center;
+    display: flex;
 }
-.card-info {
-    padding: 1em;
-    color: #fff;
+.stack-card {
+    overflow: hidden;
+    padding: 20px;
+    transition: 0.7s ease;
+    background: var(--main-bg);
+    justify-content: center;
+    display: flex;
+    margin: 20px 20px;
 }
-.card-text {
-    font-size: 2em;
-    color: #fff;
-    margin-bottom: 15px;
-    text-overflow: ellipsis;
-}
-.card-text-link {
-    color: whitesmoke;
-    text-overflow: ellipsis;
+.stack-card-icon {
+    color: white; 
+    background-color: var(--main-bg);
+    transition: 0.7s ease;
 }
 .content {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
