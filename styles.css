@@ -47,6 +47,20 @@ header {
     width: 50px;
 }
 
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7f7f7f; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #3f3f3f; 
+}
+
 /* Home */
 
 .main-body {
