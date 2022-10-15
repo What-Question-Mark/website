@@ -104,7 +104,8 @@ header {
     text-decoration: underline;
 }
 
-/* Cards */
+/* Stack Cards */
+
 .title {
     justify-content: center;
     display: flex;
@@ -141,4 +142,31 @@ header {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Achivements */
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  position: absolute;
+  text-align: center;
+  transform: translate(0, 300%);
+}
+
+.text {
+  color: white;
+  font-size: 16px;
 }
