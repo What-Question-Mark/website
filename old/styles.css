@@ -1,0 +1,172 @@
+:root {
+    --main-theme: #fff;
+    --main-bg: #101010;
+}
+*{
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+} 
+section {
+    padding: 100px 200px;
+}
+
+/* Navigations */
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px ;
+    padding-top: 10px;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navigation a{
+    color: var(--main-theme);
+    text-decoration: none;
+    font-size: 1.25em;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+.header-logo {
+    border-radius: 100%;
+    width: 50px;
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7f7f7f; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #3f3f3f; 
+}
+
+/* Home */
+
+.main-body {
+    width: 100%;
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main-body h2 {
+    color: var(--main-theme);
+    font-size: 6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.main-body h3 {
+    color: var(--main-theme);
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Buttons */
+
+.main-btn {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.25em;
+    display: inline-block;
+    padding: 0.9375em 2em;
+    border-radius: 15px;;
+}
+.main-btn:hover {
+    text-decoration: underline;
+}
+
+/* Stack Cards */
+
+.title {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.social-card {
+    overflow: hidden;
+    margin-top: 3em;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    background: var(--main-bg);
+    justify-content: center;
+    display: flex;
+}
+.stack-card {
+    overflow: hidden;
+    padding: 20px;
+    transition: 0.7s ease;
+    background: var(--main-bg);
+    justify-content: center;
+    display: flex;
+    margin: 20px 20px;
+}
+.stack-card-icon {
+    color: white; 
+    background-color: var(--main-bg);
+    transition: 0.7s ease;
+}
+.content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Achivements */
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  position: absolute;
+  text-align: center;
+  transform: translate(0, 300%);
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+}
