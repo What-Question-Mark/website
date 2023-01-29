@@ -1,14 +1,20 @@
-# Personal Website
+[![Made in Australia](https://img.shields.io/badge/Made_In-Australia-00843D?labelColor=FFCD00&style=for-the-badge)](https://www.madeinaustralia.com.au/)
 
-## URL:
+<h1>Website</h1>
 
-- https://what.is–a.dev/
+<h2>Authors 👥</h2>
+<ul>
+    <li><a href="https://www.github.com/what-question-mark">@what-question-mark</a></li>
+</ul> 
 
-## Made with:
 
-![html](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=fff&style=for-the-badge)
-![css](https://img.shields.io/badge/CSS-264DE4?logo=css3&logoColor=fff&style=for-the-badge)
+<h2>Feedback 📝</h2>
+If you have any feedback, please create a post in the <a href="https://github.com/what-question-mark/issues/new">issues tab with the <code>feedback</code> label.</a>.
 
-## Legal notice:
 
-The code for this website has been modified from the original code of the `no internet` page on google chrome.
+<h2>Contributing 🤝</h2>
+Contributions are always welcome!
+See <code>contributing.md</code> for ways to get started. Please adhere to this project's <code>code of conduct</code>.
+
+
+<h2>Thats all for now! 🎉</h2>
